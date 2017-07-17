@@ -10,7 +10,7 @@ import { RecipeService } from './recipe.service';
 })
 export class RafflesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {
   }

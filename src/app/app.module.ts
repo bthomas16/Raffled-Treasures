@@ -18,6 +18,7 @@ import { RaffleItemComponent } from './raffles/raffle-list/raffle-item/raffle-it
 import { RaffleListComponent } from './raffles/raffle-list/raffle-list.component';
 import { RecipeDetailComponent } from './raffles/raffle-detail/raffle-detail.component';
 import { AddAddressComponent } from './sign-up/add-address/add-address.component'
+import { RulesComponent } from './rules/rules.component';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { FeaturedTreasureComponent } from './raffles/raffle-list/raffle-item/featured-treasure/featured-treasure.component';
@@ -44,6 +45,7 @@ import { ShoppingListService } from './users/shopping-list.service';
     FeaturedTreasureComponent,
     ManageSubscriptionComponent,
     HowItWorksComponent,
+    RulesComponent
   ],
   imports: [
     BrowserModule,
