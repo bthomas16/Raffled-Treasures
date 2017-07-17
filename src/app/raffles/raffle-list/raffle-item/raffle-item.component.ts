@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Recipe } from '../../recipe.model';
 
 @Component({
   selector: 'app-raffle-item',
@@ -6,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./raffle-item.component.css']
 })
 export class RaffleItemComponent implements OnInit {
+  @Input() recipe: Recipe;
+  @Input() index: number;
 
-  constructor() { }
 
   ngOnInit() {
   }
-
 }
