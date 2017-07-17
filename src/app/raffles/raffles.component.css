@@ -10,7 +10,11 @@
   margin-top: 2%;
 }
 
-.raffles h2 {
-  width: 100%;
-  text-decoration: underline;
+
+.raffleList {
+  width: 50%;
+  border-right: 2px solid black;
+}
+.raffleDetail {
+  width:45%;
 }

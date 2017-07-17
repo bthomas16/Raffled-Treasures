@@ -8,9 +8,11 @@ import { UserEditComponent } from '../users/user-detail/user-edit/user-edit.comp
 import { UserManageTicketsComponent } from '../users/user-detail/user-manage-tickets/user-manage-tickets.component';
 import { RafflesComponent } from '../raffles/raffles.component';
 import { RaffleItemComponent } from '../raffles/raffle-list/raffle-item/raffle-item.component';
+import { RecipeDetailComponent } from '../raffles/raffle-detail/raffle-detail.component';
 import { AddAddressComponent } from '../sign-up/add-address/add-address.component';
 import { ManageSubscriptionComponent } from '../users/user-detail/manage-subscription/manage-subscription.component';
 import { HowItWorksComponent } from '../how-it-works/how-it-works.component';
+import { RulesComponent } from '../rules/rules.component';
 
 
 const appRoutes: Routes = [
@@ -21,12 +23,16 @@ const appRoutes: Routes = [
     { path: 'add-address', component: AddAddressComponent }
   ]},
   { path: 'users', component: UsersComponent, children: [
+
     { path: 'manage-tickets', component: UserManageTicketsComponent},
     { path: 'edit', component: UserEditComponent },
-    { path: 'manage-subscription', component: ManageSubscriptionComponent }
+    { path: 'manage-subscription', component: ManageSubscriptionComponent },
+    { path: '', component: RulesComponent},
+    { path: 'treasures/:id', component: RecipeDetailComponent }
   ]},
   { path: 'treasures', component: RafflesComponent, children: [
-    { path: ':id', component: RaffleItemComponent}
+    { path: ':id', component: RecipeDetailComponent}
+
   ]}
 ]
 
