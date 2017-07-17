@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.raffles {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.raffles h2 {
+  width: 100%;
+  text-decoration: underline;
+}

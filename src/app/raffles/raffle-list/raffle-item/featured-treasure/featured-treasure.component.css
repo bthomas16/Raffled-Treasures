@@ -1,0 +1,31 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.picDiv {
+  width: 35%;
+}
+
+.infoBox {
+  width: 65%;
+  text-align: center;
+}
+
+.infoDiv p {
+  font-size: 1.3em;
+}
+#title  {
+  width: 100%;
+  margin: auto;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+
+.enter {
+  font-size: 1.4em;
+}

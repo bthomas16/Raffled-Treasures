@@ -1,0 +1,82 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+
+.ticketDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#prizes {
+  height: 375px;
+  margin: 2%;
+  flex-wrap: nowrap;
+}
+
+#ticket {
+  height: 225px;
+  margin: 2%;
+  flex-wrap: nowrap;
+}
+
+.activeTreasures{
+  margin-top: 4%;
+  width: 70%;
+  font-size: 3em;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.rightDiv {
+  width: 600px;
+}
+
+.form {
+  margin-top: 1.5%;
+  padding: 1%;
+  border: 2px grey solid;
+  width: 50%;
+  border-radius: 20px;
+  background-color: rgba(215,215,215,.4);
+  /*background-image: url("../assets/rtmain.png")*/
+}
+
+.loginDiv {
+  border: 2px white solid;
+  width: 90%;
+  border-radius: 20px;
+  background-color: rgba(175,175,175,.9);
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+  box-shadow: -2px 0 2px -1px rgba(0,0,0,0.4);
+}
+
+.loginInput input {
+  margin-top: 2%;
+  text-align: center;
+  width: 60%;
+  border-radius: 15px;
+  z-index: 1;
+   box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+   box-shadow: -4px 0 2px -2px rgba(0,0,0,0.4);
+   font-size: 1.2em;
+}
+
+
+
+.buttonDiv * {
+  box-shadow: 0 3px 1px -1px rgba(0,0,0,0.4);
+  box-shadow: -3px 0 1px -1px rgba(0,0,0,0.4);
+  font-size: 2em;
+}
+
+.loginSubmit {
+  margin: 2%;
+  margin-top:4%;
+  /*width: 40%;*/
+}

@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+}
+
+.info1 {
+  width: 35%;
+  text-align: center;
+}
+.info2 {
+  width: 60%;
+  margin-top: 3%;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding:2%;
+}
+
+.subscription {
+  margin-top: 4%;
+}
