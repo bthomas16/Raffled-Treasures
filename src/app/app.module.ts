@@ -12,16 +12,19 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { UsersComponent } from './users/users.component';
 import { UserDetailComponent } from './users/user-detail/user-detail.component';
 import { UserEditComponent } from './users/user-detail/user-edit/user-edit.component';
-import { UserManageSubComponent } from './users/user-detail/user-edit/user-manage-sub/user-manage-sub.component';
+import { UserManageTicketsComponent } from './users/user-detail/user-manage-tickets/user-manage-tickets.component';
 import { RafflesComponent } from './raffles/raffles.component';
 import { RaffleItemComponent } from './raffles/raffle-list/raffle-item/raffle-item.component';
 import { RaffleListComponent } from './raffles/raffle-list/raffle-list.component';
-import { RaffleDetailComponent } from './raffles/raffle-detail/raffle-detail.component';
+import { RecipeDetailComponent } from './raffles/raffle-detail/raffle-detail.component';
 import { AddAddressComponent } from './sign-up/add-address/add-address.component'
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { FeaturedTreasureComponent } from './raffles/raffle-list/raffle-item/featured-treasure/featured-treasure.component';
-import { ManageSubscriptionComponent } from './users/manage-subscription/manage-subscription.component';
+import { ManageSubscriptionComponent } from './users/user-detail/manage-subscription/manage-subscription.component';
+import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+
+import { ShoppingListService } from './users/shopping-list.service';
 
 @NgModule({
   declarations: [
@@ -32,14 +35,15 @@ import { ManageSubscriptionComponent } from './users/manage-subscription/manage-
     UsersComponent,
     UserDetailComponent,
     UserEditComponent,
-    UserManageSubComponent,
+    UserManageTicketsComponent,
     RafflesComponent,
     RaffleItemComponent,
     RaffleListComponent,
-    RaffleDetailComponent,
+    RecipeDetailComponent,
     AddAddressComponent,
     FeaturedTreasureComponent,
     ManageSubscriptionComponent,
+    HowItWorksComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,7 +51,7 @@ import { ManageSubscriptionComponent } from './users/manage-subscription/manage-
     FormsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ShoppingListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
