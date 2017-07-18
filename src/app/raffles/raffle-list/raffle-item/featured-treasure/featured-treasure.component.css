@@ -5,17 +5,21 @@
   width: 100%;
 }
 
+.treasureDiv {
+  justify-content: space-between;
+}
+
 .picDiv {
-  width: 35%;
+  width: 30%;
 }
 
 .infoBox {
-  width: 65%;
+  width: 47%;
   text-align: center;
 }
 
 .infoDiv p {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 #title  {
   width: 100%;
