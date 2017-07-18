@@ -1,0 +1,36 @@
+.texts {
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+  border:2px  solid black;
+  padding:4%;
+  border-radius: 15px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.subscriptionChecks {
+  border:2px solid black;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.checks {
+  width: 60%;
+}
+
+.checks label {
+  margin: 5%;
+}
+
+.check {
+  width: 100%;
+}
+
+.manageTickets {
+  margin: 10%;
+}
